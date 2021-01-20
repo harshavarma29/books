@@ -1,0 +1,109 @@
+.search-body {
+    background-color: rgb(245, 186, 76);
+    overflow: auto;
+}
+
+.search-container {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 130px;
+}
+
+.search-logo {
+    position: relative;
+    margin-bottom: -3px;
+    margin-left: -33px;
+    font-size: 18px;
+    color: green;
+}
+
+.title {
+    font-weight: 400;
+    color: white;
+    font-size: 32px;
+    margin: 50px 20px 18px 20px;
+}
+
+.search {
+    width: 90%;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    margin-left: 15px;
+}
+
+.radio {
+    margin: 3px 7px 3px 3px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+}
+
+.circle, .circle1, .circle2 {
+    border: 1px white solid;
+    border-radius: 50px;
+    padding: 4px 14px;
+}
+
+#tag {
+    display: none;
+}
+
+#tag1 {
+    display: none;
+}
+
+#tag2 {
+    display: none;
+}
+
+#tag:checked + .circle {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#tag:checked + .circle > .inner-circle {
+    background-color: rgb(24, 182, 24);
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+#tag1:checked + .circle1 {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#tag1:checked + .circle1 > .inner-circle1 {
+    background-color: rgb(24, 182, 24);
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+
+#tag2:checked + .circle2 {
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#tag2:checked + .circle2 > .inner-circle2 {
+    background-color: rgb(24, 182, 24);
+    border-radius: 50px;
+    padding: 0px 10px;
+}

@@ -1,0 +1,75 @@
+.footer {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px grey solid;
+    overflow: auto;
+}
+
+.company-details, .footer-details, .app-link {
+    float: left;
+    margin: 12px;
+}
+
+.company-details {
+    background-color: white;
+    color: black;
+    margin-top: -16px;
+}
+
+.f-tit {
+    color: rgb(38, 211, 38);
+    font-size: 23px;
+    margin-left: 4px;
+}
+
+.des {
+    margin-top: -2px;
+    margin-bottom: 12px;
+}
+
+.footer-details, .app-link {
+    width: 150px;
+}
+
+.app-link {
+    overflow: auto;
+    color: white;
+}
+
+.link {
+    width: 90%;
+    background-color: black;
+    overflow: auto;
+    border-radius: 5px;
+    margin: 8px;
+    text-align: left;
+}
+
+.app-left {
+    width: 25%;
+    float: left;
+}
+
+.app-right {
+    width: 72%;
+    float: left;
+}
+
+.link-logo {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.footer1 {
+    margin: 7px;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+.rights {
+    margin: 5px;
+    color: grey;
+}
